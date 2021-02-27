@@ -1,0 +1,17 @@
+.footer__item{
+  margin: 32px 0 0;
+}
+
+@media screen and (min-width: 768px){
+  .footer__item{
+    margin: 0 0 0 18px;
+  }
+  .footer__item:first-of-type{
+    margin: 0;
+  }
+}
+
+.footer__item:hover{
+  opacity: 0.8;
+  transition: .8s;
+}

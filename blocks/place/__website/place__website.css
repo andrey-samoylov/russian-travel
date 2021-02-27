@@ -1,0 +1,13 @@
+.place__website {
+  display: none;
+  flex-direction: column;
+  align-self: flex-end;
+  grid-row: 1/1;
+  grid-column: 2/2;
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    display: flex;
+  }
+}
